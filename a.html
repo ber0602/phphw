@@ -1,0 +1,181 @@
+<html>
+
+<head>
+
+<title>超級健身房會員申請</title>
+
+</head>
+
+<body bgcolor="#BBFFEE">
+
+<font color="#003C9D" size="8" face="微軟正黑體"><b><a href="file:///C:/Users/user/Desktop/phphw.html">超級健身房!!!</a></b></font><br/><br/><br/><br/>
+
+
+<font color="#009FCC" size="6" face="微軟正黑體"><b>會員制度說明</b></font><br/>
+
+<ul>
+<li><font size="3" face="微軟正黑體"><b>菁英卡:全台的超級健身房都可以去喔!</b></font><br/>
+<font size="3" face="微軟正黑體"><b>(月繳1599元)</b></font><br/><br/>
+<li><font size="3" face="微軟正黑體"><b>大師卡:只限超級健身房楠梓店使用(不分時段皆可入館)</b></font><br/>
+<font size="3" face="微軟正黑體"><b>(月繳1299元)</b></font><br/><br/>
+<li><font size="3" face="微軟正黑體"><b>白金卡:只限超級健身房楠梓店使用(每天17:00~21:00不可入館)</b></font><br/>
+<font size="3" face="微軟正黑體"><b>(月繳999元)</b></font><br/><br/>
+<li><font size="3" face="微軟正黑體"><b>每種會員等級皆是以一年為單位</b></font><br/>
+</ul>
+
+
+<font color="#009FCC" size="6" face="微軟正黑體"><b>會員申請條件</b></font><br/>
+<ul>
+<li><font size="3" face="微軟正黑體"><b>年滿20歲</b></font><br/>
+<li><font size="3" face="微軟正黑體"><b>未滿20歲需家長陪同申請</b></font><br/>
+</ul>
+
+
+<font color="#009FCC" size="6" face="微軟正黑體"><b>付款說明</b></font><br/>
+
+<ul>
+<li><font size="3" face="微軟正黑體"><b>第一次申辦會員須付入會費2000元</b></font><br/>
+<li><font size="3" face="微軟正黑體"><b>第二年續約無須再付額外金額</b></font><br/>
+<li><font size="3" face="微軟正黑體"><b>線上申請完成後，請在一個星期內至本館做報名確認及付費</b></font><br/>
+</ul>
+
+
+<font color="#009FCC" size="6" face="微軟正黑體"><b>付款方式</b></font><br/>
+
+<ul>
+<li><font size="3" face="微軟正黑體"><b>每個月5號以前至櫃台付現</b></font><br/>
+<li><font size="3" face="微軟正黑體"><b>每個月5號自動從信用卡扣款</b></font><br/>
+</ul>
+
+
+
+<font color="#009FCC" size="6" face="微軟正黑體"><b>會員基本資料</b></font><br/>
+
+<font size="3" face="微軟正黑體"><b>
+
+
+<form action="a.php" method="get"> 
+
+姓名:<input type="text" name="name" value=""><br/>
+性別:
+<input type="radio" name="gender" value="male">男
+<input type="radio" name="gender" value="female">女
+<br/>
+生日:<input type="date" name="date"><br/>
+職業:<input type="job" name="job"><br/>
+身分證字號:<input type="ID" name="ID"><br/>
+聯絡信箱:<input type="email" name="email"><br/>
+聯絡電話:<input type="tel" name="tel"><br/>
+住址<input type="text" name="address"><br/><br/>
+
+
+<font color="#009FCC" size="6" face="微軟正黑體"><b>會員申請</b></font><br/>
+
+會員等級:
+<select name="list_grade">
+<option value="">菁英卡</option>菁英卡
+<option value="">大師卡</option>大師卡
+<option value="">白金卡</option>白金卡
+</select><br/>
+付費方式:
+<select name="list_money">
+<option value="">付現</option>付現
+<option value="">信用卡扣款</option>信用卡扣款
+</select><br/>
+
+
+運動服顏色:<input type="color"><br/>
+運動服尺寸:
+<select name="list_size">
+<option value="XS">XS</option>
+<option value="S">S</option>
+<option value="M">M</option>
+<option value="L">L</option>
+<option value="XL">XL</option>
+<option value="2XL">2XL</option>
+</select><br/><br/>
+
+
+會員帳號:<input type="text" name="uname" value="">(帳號須8碼以上，並包含英文字母及數字)<br/>
+會員密碼:<input type="password" name="upwd"><br/>
+再次確認密碼:<input type="password" name="upwd"><br/><br/>
+
+
+<font color="#009FCC" size="6" face="微軟正黑體"><b>運動習慣調查</b></font><br/>
+每周運動天數
+<select name="list_day">
+<option value="幾乎不運動">幾乎不運動</option>
+<option value="1~2天">1~2天</option>
+<option value="3~4天">3~4天</option>
+<option value="5~6天">5~6天</option>
+<option value="每天都運動">每天都運動</option>
+</select><br/>
+
+
+每次運動的時間
+<select name="list_time">
+<option value="1小時以下">1小時以下</option>
+<option value="1~2小時">1~2小時</option>
+<option value="2小時以上">2小時以上</option>
+</select><br/>
+
+
+喜歡的運動(可複選):<br/>
+<input type="checkbox" name="跑步" value="跑步">跑步
+<input type="checkbox" name="游泳" value="游泳">游泳
+
+<input type="checkbox" name="爬山" value="爬山">爬山
+<input type="checkbox" name="攀岩" value="攀岩">攀岩
+<input type="checkbox" name="腳踏車" value="腳踏車">腳踏車
+<input type="checkbox" name="拳擊" value="拳擊">拳擊
+<input type="checkbox" name="瑜珈" value="瑜珈">瑜珈
+<input type="checkbox" name="柔道" value="柔道">柔道
+<input type="checkbox" name="空手道" value="空手道">空手道
+<input type="checkbox" name="跆拳道" value="跆拳道">跆拳道<br/>
+<input type="checkbox" name="籃球" value="籃球">籃球
+<input type="checkbox" name="排球" value="排球">排球
+<input type="checkbox" name="羽球" value="羽球">羽球
+<input type="checkbox" name="桌球" value="桌球">桌球
+<input type="checkbox" name="棒球" value="棒球">棒球
+<input type="checkbox" name="壘球" value="壘球">壘球
+<input type="checkbox" name="網球" value="網球">網球
+<input type="checkbox" name="足球" value="足球">足球
+<input type="checkbox" name="壁球" value="壁球">壁球
+<input type="checkbox" name="高爾夫球" value="高爾夫球">高爾夫球
+<input type="checkbox" name="其他" value="其他">其他<input type="text" name="">
+
+<br/><br/>
+
+
+<font color="#009FCC" size="6" face="微軟正黑體"><b>為什麼會想來超級健身房呢?</b></font><br/>
+
+<input type="checkbox" name="路過被吸引" value="路過被吸引">路過被吸引
+<input type="checkbox" name="朋友介紹" value="朋友介紹">朋友介紹
+<input type="checkbox" name="廣告、傳單" value="廣告、傳單">廣告、傳單
+<input type="checkbox" name="網路資訊" value="網路資訊">網路資訊
+<input type="checkbox" name="就想來啊" value="就想來啊">就想來啊
+<input type="checkbox" name="其他" value="其他">其他<input type="text" name=""><br/><br/>
+
+
+<font color="#009FCC" size="6" face="微軟正黑體"><b>我有話要說</b></font><br/>
+<textarea rows="3" cols="50" name="talk">
+</textarea>	<br/>
+
+<input type="submit"><input type="reset">
+<br/>
+
+</b></font><br/>
+
+</form>
+
+
+<font color="#0066FF" size="2" face="微軟正黑體"><b>聯絡電話:0800-123123　</b></font>
+<font color="#0066FF" size="2" face="微軟正黑體"><b>本館地址:高雄市楠梓區高雄大學路10號</b></font><br/>
+
+
+<font size="3" face="微軟正黑體"><b>
+<a href="#top">回到最上面</a>
+</b></font><br/>
+
+</body>
+</html>
