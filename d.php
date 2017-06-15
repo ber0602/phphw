@@ -1,14 +1,14 @@
 <?php
 	echo '<meta charset="utf-8">';
-	$uploadnum=$_GET["uploadnum"];
+	$uploadnum=$_GET["num"];
 		
-		echo '<form action=""  enctype="multipart/form-data"  method="post">';
-			for($a=0; $a<$uploadnum; $a++){
-				echo '<input type="file" name="file[]" ><br/><br/>';
+		echo "<form action=''  enctype='multipart/form-data'  method='post'>";
+			for($i=0; $i<$num; $i++){
+				echo "<input type='file' name='file[]' ><br/><br/>";
 			}	
 		
-		echo '<input type="submit" name="file" value="上傳檔案">';
-		echo '</form>';
+		echo "<input type='submit' name='file' value='upload'>";
+		echo "</form>";
 		
 		if(isset($_FILES["file"])){
 			for($a=0; $a<$uploadnum; $a++){
