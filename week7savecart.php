@@ -14,6 +14,6 @@ if(isset($_SESSION["ID"])){
 	setcookie($id."[quantity]",$quantity,time()+3600);
 }
 
-header("Location:shoppingcart.php")
+header("Location:week7shoppingcart.php")
 
 ?>
