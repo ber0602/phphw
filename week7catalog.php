@@ -20,7 +20,7 @@ $_SESSION["quantity"]=$_POST["Quantity"];
 			$_SESSION["price"]=21000;
 		break;
 	}
-	header("Location:savecart.php");
+	header("Location:week7savecart.php");
 }
 
 echo '<form action="" method="post">
