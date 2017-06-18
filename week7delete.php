@@ -7,6 +7,6 @@ if (isset($_GET["id"])) {
 	}
 }
 
-header("Location:shoppingcart.php");
+header("Location:week7shoppingcart.php");
 
 ?>
