@@ -20,6 +20,6 @@ while ( list($arr, $value) = each($_COOKIE) ) {
 	}
 }
 echo "總價：",$total,"<br>";
-echo "<a href='catalog.php'>商品目錄</a>";
+echo "<a href='week7catalog.php'>商品目錄</a>";
 
 ?>
